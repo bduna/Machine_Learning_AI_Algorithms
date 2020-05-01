@@ -26,6 +26,7 @@ class Perceptron(object):
     def predict(self, x):
         return self.threshold(self.net_input(x))
 
+    
 if __name__ == "__main__":
 
     p = Perceptron()
