@@ -20,7 +20,6 @@ class Perceptron(object):
     def net_input(self, x):
         return np.dot(x, self.w[1:]) + self.w[0]
 
-    # Possible Error
     def threshold(self, z):
         return 1 if z >= 0 else 0
 
