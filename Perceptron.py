@@ -32,7 +32,7 @@ if __name__ == "__main__":
     p = Perceptron()
     df = pd.read_csv("iris.csv", header=None)
     df.columns = ["sepal_length", "sepal_width", "petal_length", "petal_width", "class"]
-    X = df.loc[0:100, ["sepal_length", "petal_length"]]
-    y = df.loc[0:100, "class"]
+    X = df.loc[:99, ["sepal_length", "petal_length"]]
+    y = df.loc[:99, "class"]
     y = np.where(y == "Iris-setosa", 1, 0)
     p.fit(X, y)
