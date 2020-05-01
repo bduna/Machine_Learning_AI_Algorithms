@@ -27,7 +27,8 @@ class Adaline:
 
     def activation(self, x):
         return x
-
     
     def predict(self, x):
         return 1 if self.activation(self.net_input(x)) >= 0 else -1
+
+    
