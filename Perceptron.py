@@ -49,6 +49,3 @@ if __name__ == "__main__":
     perceptron.fit(X_train, y_train)
     
     print("Test accuracy: {:.0%}".format(perceptron.accuracy(X_test, y_test)))
-    
-
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30)
