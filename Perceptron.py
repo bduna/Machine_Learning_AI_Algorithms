@@ -43,10 +43,12 @@ if __name__ == "__main__":
     X = X.iloc[:100]
     y = iris["class"].iloc[:100].apply(lambda c: 1 if c == "Iris-setosa" else -1)
     
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30)
+    
     perceptron = Perceptron()
     perceptron.fit(X_train, y_train)
     
-    print("{:.0%}".format(perceptron.accuracy(X_test, y_test)))
+    print("Test accuracy: {:.0%}".format(perceptron.accuracy(X_test, y_test)))
     
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30)
