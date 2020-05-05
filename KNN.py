@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 from collections import Counter
 from operator import itemgetter
 
@@ -61,8 +62,6 @@ class KNN(object):
   
 if __name__ == "__main__":
     
-    import pandas as pd
-
     iris = pd.read_csv("iris.csv")
 
     X = iris.iloc[:, :4]
