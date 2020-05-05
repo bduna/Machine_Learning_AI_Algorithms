@@ -3,7 +3,7 @@ import pandas as pd
 from collections import Counter
 from operator import itemgetter
 
-class KNN(object):
+class KNN:
     
     def __init__(self, X, y, K = None, inverse_weighted=False, l2_norm = True):
         self.X = np.array(X)
