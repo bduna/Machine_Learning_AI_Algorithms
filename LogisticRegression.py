@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-class LogisticRegression(object):
+class LogisticRegression:
 
     def __init__(self, eta=0.01, num_epochs=20):
         self.eta = eta
