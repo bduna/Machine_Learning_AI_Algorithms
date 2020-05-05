@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 
-class Perceptron(object):
+class Perceptron:
 
     def __init__(self, eta=0.001, num_epochs=100):
         self.eta = eta
