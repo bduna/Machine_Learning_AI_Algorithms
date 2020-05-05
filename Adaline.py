@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 
-class Adaline(object):
+class Adaline(Object):
     # Adaptive Linear Neurons (Adaline)
 
     def __init__(self, eta=0.0001, num_epochs=1000):
