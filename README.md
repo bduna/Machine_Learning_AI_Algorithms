@@ -12,4 +12,4 @@ Current algorithms include:
 
 More algorithms comming soon!
 
-- Barrett Duna
+Barrett Duna
