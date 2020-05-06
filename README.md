@@ -2,8 +2,6 @@
 
 A collection of machine learning and AI algorithms written from scratch.
 
-This repository contains machine learning and AI algorithms coded from scratch.
-
 Current algorithms include:
 
 * Perceptron Algorithm
@@ -14,4 +12,4 @@ Current algorithms include:
 
 More algorithms comming soon!
 
--Barrett Duna
+- Barrett Duna
