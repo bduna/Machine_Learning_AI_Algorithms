@@ -9,6 +9,7 @@ Current algorithms include:
 * KNN
 * Linear Regression trained with Stochastic Gradient Decsent
 * Logisitic Regression
+* K Means Clustering
 
 More algorithms comming soon!
 
